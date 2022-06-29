@@ -77,16 +77,17 @@
   <div class="collapse bg-dark" id="navbarHeader">
     <div class="container">
       <div class="row">
-        <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">About</h4>
+        <!-- <div class="col-sm-8 col-md-7 py-4"> -->
+          <!-- <h4 class="text-white">About</h4> -->
           <!-- <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p> -->
-        </div>
+        <!-- </div> -->
         <div class="col-sm-4 offset-md-1 py-4">
           <h4 class="text-white">Content</h4>
           <ul class="list-unstyled">
             <li><a href="#snapshop" class="text-white">Product Search by Image</a></li>
             <li><a href="#collocation" class="text-white">Product Collocation</a></li>
             <li><a href="#digital_human" class="text-white">Shopping with Digital Human</a></li>
+            <li><a href="#other" class="text-white">Awards</a></li>
           </ul>
         </div>
       </div>
@@ -94,10 +95,10 @@
   </div>
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-        <strong>Stardoc2022</strong>
-      </a>
+      <!-- <a href="#" class="navbar-brand d-flex align-items-center"> -->
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg> -->
+        <!-- <strong>Stardoc2022</strong> -->
+      <!-- </a> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -118,7 +119,26 @@
         </p> -->
       </div>
     </div>
+
+    <div class="row py-lg-5" style="width: 100%;">
+    <div class="col-lg-6 col-md-8 mx-auto" style="width: 30%;">
+      <a href="#snapshop" class="lead text-white">title_1</a>
+      <p class="lead text-white">add description</p>
+    </div>
+
+    <div class="col-lg-6 col-md-8 mx-auto" style="width: 30%;">
+      <a href="#collocation" class="lead text-white">title_2</a>
+      <p class="lead text-white">add description</p>
+    </div>
+
+    <div class="col-lg-6 col-md-8 mx-auto" style="width: 30%;">
+      <a href="#digital_human" class="lead text-white">title_3</a>
+      <p class="lead text-white">add description</p>
+    </div>
+    </div>
+
   </section>
+
   </div>
 
   <div id="snapshop">
@@ -131,20 +151,25 @@
             <a href="#" class="btn btn-secondary my-2">Secondary action</a>
           </p> -->
         </div>
+        
         <div style="padding-left: 2.5%; padding-right: 2.5%; height: min-content;  text-align: left;" >
           <!-- <img src="figures/phone_shape.png"> -->
           <p class="lead text-muted">SnapShop, our featured product search service, quickly finds similar items by snapping a photo using a mobile phone. Billion-scale products can be identified by fine-grained recognition at SKU (Stock Keeping Unit) level.</p>
-          <video style="width: 22.5%; float: left;" src="figures/snapshop.mp4" controls></video>
-          <img style="width: 70%;" src="figures/snapshop_img.png"><br/><br/>
+          <div style="text-align: center;">
+          <video style="width: 15%; float: left; margin-left: 15%;" src="figures/snapshop.mp4" controls></video>
+          <img style="width: 45%;" src="figures/snapshop_img.png"><br/><br/>
+          </div>
           <p class="lead text-muted">Product AI looks into each item to bring full contexts to products surfing. </p>
-          <img style="width: 90%;" src="figures/snapshop_img_2.png">
+          <div style="text-align: center;">
+          <img style="width: 65%;" src="figures/snapshop_img_2.png">
+          </div>
         </div>
       </div>
     </section>
     </div>
 
     <div id="collocation">
-      <section style="background-color: gray;">
+      <section style="background-color: #2e323d;">
         <div class="py-lg-5" style="padding-left: 2.5%;">
           <div class="col-lg-6 col-md-8 mx-auto" style="width: 100%;">
             <h1 class="text-white">2. Product Collocation</h1>
@@ -156,10 +181,13 @@
           <div style="padding-left: 2.5%; height: min-content;" >
             <p class="lead text-white">Besides independent product search, Product Collocation delves into the measure of compatibility for a set of products, to compose a good outfit. More notably, we further automatically interpret the outfit selling points in a nature-language utterance as the advertising copy.</p>
             <!-- <img src="figures/phone_shape.png"> -->
-            <img style="width: 90%" src="figures/collocation_img_1.png">
-            <img style="width: 90%" src="figures/collocation_img_2.png">
+            <div style="text-align: center;">
+            <img style="width: 40%" src="figures/collocation_img_1.png">
+            <img style="width: 40%" src="figures/collocation_img_2.png">
+            </div>
             <p class="lead text-white">More examples on Product Collocation sampled from online service.</p>
             <img style="width: 90%" src="figures/collocation_img_3.png">
+
             <!-- <img style="width: 100%" src="figures/snapshop_img_2.png"> -->
           </div>
         </div>
@@ -180,7 +208,7 @@
               <p class="lead text-muted" align="left">We explore the visual content generation to enhance the shopping experience via lifelike interactions with digital human. Compared with traitional text-based interaction, this innovative technique enables a natural way delivering information through visual engagement using facial expression, body gestures and speech audio. </p>
               <!-- <img src="figures/phone_shape.png"> -->
               <img style="width: 20%; background-color: gray; margin-right: 20%;"  src="figures/digital_human_1.png">
-              <img style="width: 20%; background-color: gray; align:center"  src="figures/digital_human_2.png">
+              <img style="width: 20%; background-color: gray; "  src="figures/digital_human_2.png">
               <!-- <img class="py-5" style="width: 90%;" src="figures/digital_human_3.png"> -->
             </div>
             
@@ -204,10 +232,28 @@
   
   
   <div id="other">
-        <section style="background-color: gray;">
+        <section style="background-color: #2e323d;">
           <div class="py-lg-5" style="padding-left: 2.5%;">
             <div class="col-lg-6 col-md-8 mx-auto" style="width: 100%;">
               <h1 class="text-white">4. More references on broader impact</h1>
+            </div>
+
+            <h1 class="text-white fs-3" style="padding-left: 2.5%;">Paper Award</h1>
+            <div style="padding-left: 2.5%; width: 97.5%; text-align: center;">
+              <img style="width: 20%; margin-right: 10%;"  src="figures/awards/paper/MM21-best demo paper award-1.png">
+              <img style="width: 20%;"  src="figures/awards/paper/MM21-open source award-1.png">
+            </div>
+            <!-- <br/> -->
+            <h1 class="text-white fs-3 py-4" style="padding-left: 2.5%;">Challenge Award</h1>
+            <div style="padding-left: 2.5%; width: 97.5%; text-align: center;">
+              <img style="width: 20%; margin-right: 5%;"  src="figures/awards/challenge/Certificate CVPR 2020 AliProducts Challenge1-1.png">
+              <img style="width: 20%; margin-right: 5%;"  src="figures/awards/challenge/cvpr19 FGVC product recognition.jpg">
+              <img style="width: 20%; margin-right: 5%;"  src="figures/awards/challenge/ICCV-VisDA19-first-1.png">
+            </div>
+
+            <div class="py-5" style="padding-left: 2.5%; width: 97.5%; text-align: center;">
+              <img style="width: 20%; margin-right: 10%;"  src="figures/awards/challenge/ECCV-VisDA18-detection_first-1.png">
+              <img style="width: 20%; margin-right: 10%;"  src="figures/awards/challenge/VisDA18-openset_first-1.png">
             </div>
 
           </div>
@@ -215,7 +261,7 @@
         </div>
 </main>
 
-<footer class="text-muted py-5">
+<footer class="text-muted py-5 bg-dark">
   <div class="container">
     <p class="float-end mb-1">
       <a href="#">Back to top</a>
